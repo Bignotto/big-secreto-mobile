@@ -22,10 +22,33 @@ export const THEME = extendTheme({
     },
     white: "#FFFFFF",
   },
+
+  fontConfig: {
+    Roboto: {
+      400: {
+        normal: "Roboto_400Regular",
+      },
+      700: {
+        normal: "Roboto_700Bold",
+      },
+    },
+    RobotoMono: {
+      500: {
+        normal: "RobotoMono_500Medium",
+      },
+    },
+    Pacifico: {
+      400: {
+        normal: "Pacifico_400Regular",
+      },
+    },
+  },
   fonts: {
-    heading: "Roboto_700Bold",
-    body: "Roboto_400Regular",
-    medium: "Roboto_500Medium",
+    heading: "Roboto",
+    body: "Roboto",
+    medium: "Roboto",
+    mono: "RobotoMono",
+    logo: "Pacifico",
   },
   fontSizes: {
     xs: 12,
